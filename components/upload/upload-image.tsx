@@ -82,7 +82,7 @@ const UploadImage = () => {
             <input {...getInputProps()} type='text' />
             <div className='flex items-center flex-col justify-center gap-2'>
                 {/* <Lottie className="h-48" animationData={loadingAnimation}/> */}
-                <p className='text-muted-foreground text-2xl'>{isDragActive ? "Drop Your Image here": "Start by uploading an image (less than or equal to 1MB)"}</p>
+                <p className='text-muted-foreground text-2xl'>{isDragActive ? "Drag and drop Your Image here": "Start by uploading an image (less than or equal to 1MB)"}</p>
                 <p className='text-muted-foreground'>Supported format. jpeg, jpg, png, webp</p>
             <Button><Image/> Image</Button>
             </div>
